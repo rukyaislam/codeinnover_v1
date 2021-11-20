@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Titillium Web', sans-serif;
+}
+*{padding:0;margin:0;}
+
+.home-btn{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	background-color:#CCC;
+}
+
+.float-btn{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.fa-arrow-up{
+	margin-top:22px;
+}
+
+
+/* navbar */
+
+.navbar-brand img{
+  height: 60px;
+}
+
+.nav-link{
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  color: blue;
+  border-top: 1px solid  rgb(62, 248, 5);
+  border-bottom: 3px solid rgb(62, 248, 5);
+}
+.navbar-nav a{
+  transform: all 0.5s ease !important;
+}
+.navbar-nav a:hover{
+  /* background-color: blue; */
+  padding: 10px;
+}
+
+
+/* carousel */
+.carousel-inner .carousel-item{
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* about us */
+
+.aboutus {
+  text-align: justify;
+} 
+
+
+h1{
+    text-align: center;
+}
+
+/*---Our Mision, Vision css starts--*/
+/* .header-extradiv {
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: gray;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.extra-div {
+  text-align: justify;
+  background: white;
+  border: medium none;
+  padding: 50px !important;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+
+.extra-div a {
+  background: none;
+  color: #3EF805;
+}
+
+.extra-div a:hover {
+  color: white;
+}
+
+.extra-div:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.616);
+  transform: translateY(-20px);
+  color: black;
+} */
+
+/*---Our Mision, Vision css End--*/
+
+
+
+.ceo .box-shadow .img-fluid{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.616);
+}
+
+/* courses */
+
+  div.card {
+    padding: 1em;
+    background: #f5f5f5;
+    box-shadow: 1px 1px 2px hsl(0, 0%, 30%);
+}
+
+
+.card {
+  width: 100%;
+  height: auto;
+  /* margin: 100px 0; */
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: gray;
+  font-family: "", sans-serif;
+}
+
+.card-body {
+  text-align: justify;
+  color: gray;
+  border: medium none;
+  /* padding: 50px !important; */
+  border-radius: 3px;
+  transition: 0.3s;
+  
+}
+
+.card a {
+  background: black;
+  color: white
+}
+
+.card a:hover {
+  color: #3EF805;
+
+}
+
+.card:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.616);
+  transform: translateY(-5px);
+  color: #3EF805;
+  transform: 0.9s;
+  transition: 0.10s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* our team */
+
+
+p {
+  color: black
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: black
+}
+
+@media (max-width:767px) {
+  h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px
+  }
+}
+
+.intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto
+}
+
+.intro p {
+  margin-bottom: 0
+}
+
+.people {
+  padding: 50px 0;
+  cursor: pointer
+}
+
+.item {
+  margin-bottom: 10px
+}
+
+.item .box {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+  overflow: hidden
+}
+
+
+.item .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 148, 255, 0.75);
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  padding-top: 80px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
+}
+
+.item:hover .cover {
+  opacity: 1
+}
+
+.item .name {
+  font-weight: bold;
+  margin-bottom: 8px
+}
+
+.item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #bbd8fb;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 20px
+}
+
+.social {
+  font-size: 18px
+}
+
+.social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7
+}
+
+.social a:hover {
+  opacity: 1
+}
+
+
+/* footer */
+footer .quick-link a{
+  color: white;
+}
+footer .quick-link a:hover{
+  color: #3EF805;
+}
+
+footer .fa{
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  margin: 3px;
+  padding: 5px;
+}
+footer .fa:hover{
+  color: gray;
+}
